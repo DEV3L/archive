@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - "3.6"
+
+install:
+  - pip install -r ./requirements.txt
+  - pip install coveralls
+
+script:
+  - coverage run --timid --source ./wisdom_chatbot/ -m py.test
+  - coverage report
+  - bandit -r ./wisdom_chatbot/
+
+after_success:
+  coveralls
