@@ -1,0 +1,12 @@
+bin/
+log/
+target/
+
+#jooq generated files
+src/main/java/generated/
+
+# Eclipse
+.settings
+.project
+.classpath
+.buildpath

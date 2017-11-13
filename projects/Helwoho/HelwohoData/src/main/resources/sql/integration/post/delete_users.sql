@@ -1,0 +1,1 @@
+DELETE FROM `helwoho`.`user` WHERE user_name like '%it_test_name%';
