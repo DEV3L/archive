@@ -1,0 +1,98 @@
+/* Main theme colors */
+/* http://paletton.com/#uid=1000u0k00uG00++00Ni01oO0ijf */
+/* "Color Table" Values from left to right */
+@header_color: #FFFFFF;
+@footer_color: #FFFFFF;
+@content_color: #F5F5F5;
+@header_color_active: #C6C6C6;
+@background_color: #999898;
+
+@navbar_header_color: #3D3A37;
+@navbar_link_color: black;
+@navbar_link_color_hover: #777777;
+
+/* Colors above used below */
+.body-color {
+	background-color: @background_color;
+}
+
+.content-color {
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, @content_color),color-stop(1, @footer_color));
+	background-image: -o-linear-gradient(bottom, @content_color 0%, @footer_color 100%);
+	background-image: -moz-linear-gradient(bottom, @content_color 0%, @footer_color 100%);
+	background-image: -webkit-linear-gradient(bottom, @content_color 0%, @footer_color 100%);
+	background-image: -ms-linear-gradient(bottom, @content_color 0%, @footer_color 100%);
+	background-image: linear-gradient(to bottom, @content_color 0%, @footer_color 100%);
+}
+
+.nav-color {
+	background: @header_color !important;
+}
+
+.header-color {
+	background-color: @header_color;
+}
+
+.footer-color {
+	background-color: @footer_color;
+}
+
+#navbar a {
+	color: @navbar_link_color;
+}
+
+#navbar a:hover {
+	color: @navbar_link_color_hover;
+	font-style: italic;
+}
+
+#navbar_button {
+	background: @header_color;
+	border-color: @background_color;
+}
+
+#navbar_button .icon_bar {
+	border-color: @background_color;
+}
+
+#navbar_button:hover {
+	background-color: @footer_color;
+}
+
+#navbar_button:active {
+	background-color: @footer_color;
+}
+
+#navbar li.active>a, #navbar li.open>a {
+	background: @header_color_active;
+}
+
+#project-name {
+	color: @navbar_header_color;
+}
+
+.nav-border {
+	border: 0px !important;
+}
+
+.content-margin {
+	margin-top: 55px;
+}
+
+.header-margin {
+	margin-bottom: 10px !important;
+}
+
+.footer-margin {
+	margin-top: 5px;
+	margin-bottom: 0px !important;
+}
+
+.footer-display {
+	display: flex;
+	align-items: center;
+}
+
+.footer-text {
+	width: 100%;
+}

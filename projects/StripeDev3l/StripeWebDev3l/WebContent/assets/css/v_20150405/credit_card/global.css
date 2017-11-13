@@ -1,0 +1,41 @@
+.margin-none {
+	margin: 0px;
+}
+
+.margin-left-small {
+	margin-left: 5px !important;
+}
+
+.margin-top-small {
+	margin-top: 5px !important;	
+}
+
+.padding-none {
+	padding: 0px !important;
+}
+
+.background-color-white {
+	background-color: #FFF;
+}
+
+.loading_gif_style {
+	display: block;
+	margin: auto;
+	height: 125px;
+}
+
+.displayNone {
+	display: none;	
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}

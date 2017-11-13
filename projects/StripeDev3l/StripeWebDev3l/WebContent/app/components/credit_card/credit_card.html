@@ -1,0 +1,52 @@
+<!-- app/components/credit_card/credit_card.html -->
+<h2>Credit Card Payment</h2>
+<form name="creditCardForm" id="creditCardForm" ng-submit="validateFields() && creditCardForm.$valid && submitForm()" class="form-horizontal" novalidate>
+  <input type="text" class="displayNone" ng-model="currency" value="usd" />
+  <div class="form-group">
+    <label class="col-sm-3 control-label visible-md visible-lg">Full Name</label>
+    <div class="col-sm-3 hidden-xs hidden-md hidden-lg">&nbsp;</div>
+    <div class="col-sm-6">
+      <input ng-model="name" type="text" class="form-control noPlaceHolderMedium" placeholder="Full Name" required />
+    </div>
+  </div>
+  <hr />
+  <div class="form-group">
+    <label class="col-sm-3 control-label visible-md visible-lg">Amount</label>
+    <div class="col-sm-3 hidden-xs hidden-md hidden-lg">&nbsp;</div>
+    <div class="col-sm-6 text-left">
+      <div class="input-group">
+        <div class="input-group-addon">$</div>
+        <input ng-model="amount" type="number" class="form-control" id="exampleInputAmount" placeholder="Amount" required>
+        <div class="input-group-addon">.00</div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="form-group">
+    <label class="col-sm-3 control-label visible-md visible-lg">Card Number</label>
+    <div class="col-sm-3 hidden-xs hidden-md hidden-lg">&nbsp;</div>
+    <div class="col-sm-6">
+      <input ng-model="number" type="number" class="form-control noPlaceHolderMedium" placeholder="Card Number" required />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-3 control-label visible-md visible-lg">Expiration (MM / YYYY)</label>
+    <div class="col-sm-3 hidden-xs hidden-md hidden-lg">&nbsp;</div>
+    <div class="col-sm-2">
+      <input ng-model="expMonth" type="number" class="form-control noPlaceHolderMedium" min="1" max="12" maxlength="2" placeholder="Month (MM)" required />
+    </div>
+    <div class="col-sm-4">
+      <input ng-model="expYear" type="number" class="form-control noPlaceHolderMedium" min="2015" max="2100" maxlength="4" placeholder="Year (YYYY)" required />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-3 control-label visible-md visible-lg">CVC</label>
+    <div class="col-sm-3 hidden-xs hidden-md hidden-lg">&nbsp;</div>
+    <div class="col-sm-2">
+      <input ng-model="cvc" type="number" class="form-control noPlaceHolderMedium" min="1" max="9999" maxlength="4" placeholder="CVC" required />
+    </div>
+  </div>
+  <div class="form-group">
+    <input type="submit" id="submitButton" class="btn btn-default" value="Submit" />
+  </div>
+</form>
