@@ -1,0 +1,2 @@
+class CoffeePot():
+    pass
