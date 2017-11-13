@@ -1,0 +1,116 @@
+.full-width {
+	width: 100%;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.margin-none {
+	margin: 0px;
+}
+
+.margin-bottom {
+	margin-bottom: 10px;	
+}
+
+.margin-bottom-small {
+	margin-bottom: 5px;	
+}
+
+.margin-left-small {
+	margin-left: 5px !important;
+}
+
+.margin-top-small {
+	margin-top: 5px !important;	
+}
+
+.margin-top {
+	margin-top: 10px;	
+}
+
+.padding-none {
+	padding: 0px !important;
+}
+
+.background-color-white {
+	background-color: #FFF;
+}
+
+.loading_gif_style {
+	display: block;
+	margin: auto;
+	height: 125px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.invalid { 
+    border-color: #FA787E;
+}
+
+
+/* OLD!! */
+.color-black {
+	color: black;
+}
+
+.bottomMarginZero {
+	margin-bottom: 0px;
+}
+
+.brandImage {
+	height: 50px;
+	vertical-align: baseline;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.inlineBlock {
+	display: inline-block;
+}
+
+.displayNone {
+	display: none;
+}
+
+.marginAuto {
+	margin: auto;
+}
+
+.widthAuto {
+	width: auto;
+}
+
+.smallH2 {
+	font-size: 18px;
+}
+
+.hidePlaceHolders::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.hidePlaceHolders:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: transparent;
+}
+
+.hidePlaceHolders::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: transparent;
+}
+
+.hidePlaceHolders:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: transparent;
+}
+
+.selectNonPlaceHolder option {
+	color: black;
+}
+
+.selectPlaceHolder {
+	color: #999999;
+}

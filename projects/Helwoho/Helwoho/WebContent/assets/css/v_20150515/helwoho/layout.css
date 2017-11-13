@@ -1,0 +1,25 @@
+.nav-border {
+	border: 0px !important;
+}
+
+.content-margin {
+	margin-top: 55px;
+}
+
+.header-margin {
+	margin-bottom: 10px !important;
+}
+
+.footer-margin {
+	margin-top: 15px;
+	margin-bottom: 0px !important;
+}
+
+.footer-display {
+	display: flex;
+	align-items: center;
+}
+
+.footer-text {
+	width: 100%;
+}
