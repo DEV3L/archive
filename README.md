@@ -16,6 +16,7 @@ I have projects I started or half lost interest in. I do not want to lose any wo
 * __introduction-to-tdd-with-django__: Introduction to TDD with Django
 * __track-my-beer__: A small appication that utilizes a phone text message based api to track expenditures on alcohol
 * __complete-beginners-guide-to-django__: A Complete Beginner's Guide to Django
+* __eve-building-restful-mongodb-backed-apis-course__: Repository for Talk Python Training Course - Eve: Building RESTful APIs with MongoDB and Flask
 
 ## Java
 * __StripeDev3l__: Java methods to exercise Stripe api
