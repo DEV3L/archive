@@ -12,6 +12,8 @@ I have projects I started or half lost interest in. I do not want to lose any wo
 
 ## Python
 * __python-office-cofee-algorithm__: Algorithm to assure the coffee pot is always full
+* __fb-messenger-bot__:This is a simple python template that uses Flask to build a webhook for Facebook's Messenger Bot API.
+* __introduction-to-tdd-with-django__: Introduction to TDD with Django
 
 ## Java
 * __StripeDev3l__: Java methods to exercise Stripe api
