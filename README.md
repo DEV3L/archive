@@ -15,7 +15,7 @@ I have projects I started or half lost interest in. I do not want to lose any wo
 * __fb-messenger-bot__:This is a simple python template that uses Flask to build a webhook for Facebook's Messenger Bot API
 * __introduction-to-tdd-with-django__: Introduction to TDD with Django
 * __track-my-beer__: A small appication that utilizes a phone text message based api to track expenditures on alcohol
-* __DEV3L/complete-beginners-guide-to-django__: A Complete Beginner's Guide to Django
+* __complete-beginners-guide-to-django__: A Complete Beginner's Guide to Django
 
 ## Java
 * __StripeDev3l__: Java methods to exercise Stripe api
