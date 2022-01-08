@@ -1,0 +1,57 @@
+{
+  "name": "remote-moving-motivators",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^1.35.7",
+    "chordsheetjs": "^2.2.0",
+    "re-base": "^3.2.2",
+    "react": "^16.3.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-ga": "^2.5.0",
+    "react-hotjar": "^1.0.11",
+    "react-router-dom": "^4.2.2",
+    "react-router-ga": "^1.0.0",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:ci": "CI=true react-scripts test --env=jsdom --testResultsProcessor ./node_modules/jest-junit --coverage --coverageDirectory=coverage/junit"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest-cli": "^21.2.1",
+    "jest-junit": "^5.1.0",
+    "react-dom": "^16.3.2",
+    "react-test-renderer": "^16.3.2"
+  },
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ]
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "output": "coverage/junit/js-test-results.xml",
+    "classNameTemplate": "{classname} - {title}",
+    "titleTemplate": "{classname} - {title}",
+    "ancestorSeparator": " > ",
+    "usePathForSuiteName": "true"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run format"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
