@@ -1,0 +1,18 @@
+boto3
+environs
+eve
+Flask
+pymongo
+python-dateutil
+requests
+tweepy
+
+
+# non-functional
+pytest
+
+bandit
+coveralls
+coverage
+pylint
+tox

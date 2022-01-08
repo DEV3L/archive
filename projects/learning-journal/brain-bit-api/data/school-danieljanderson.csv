@@ -1,0 +1,51 @@
+﻿date,duration,cumulative,project
+12/19/18 7:45,1.25    ,1.25      ,NWD
+12/20/18 7:45,1.25    ,2.5       ,NWD
+12/21/18 7:45,1.25    ,3.75      ,NWD
+1/1/19 10:00 ,2.5     ,6.25      ,NWD
+1/2/19 7:45  ,1.25    ,7.5       ,NWD
+1/3/19 8:00  ,1       ,8.5       ,NWD
+1/14/19 7:45 ,1.25    ,9.75      ,NWD
+1/15/19 7:45 ,1.25    ,11        ,NWD
+1/16/19 8:00 ,1       ,12        ,NWD
+1/17/19 7:30 ,1.5     ,13.5      ,NWD
+1/18/19 7:45 ,1.25    ,14.75     ,NWD
+1/22/19 7:45 ,1.25    ,16        ,NWD
+1/23/19 8:00 ,1       ,17        ,NWD
+1/29/19 7:30 ,1.5     ,18.5      ,NWD
+1/30/19 7:30 ,1.5     ,20        ,NWD
+2/1/19 7:30  ,1.5     ,21.5      ,MedaSync - NLP
+2/6/19 7:45  ,1.25    ,22.75     ,MedaSync - NLP
+2/18/19 7:45 ,5       ,27.75     ,MedaSync - NLP
+2/18/19 13:00,4       ,31.75     ,MedaSync - NLP
+2/19/19 7:45 ,1.25    ,33        ,MedaSync - NLP
+2/20/19 7:45 ,1.25    ,34.25     ,MedaSync - NLP
+2/22/19 8:00 ,1       ,35.25     ,MedaSync - NLP
+2/22/19 13:00,1       ,36.25     ,Node Kata
+2/23/19 21:00,1       ,37.25     ,Node Kata
+2/25/19 8:00 ,1       ,38.25     ,MedaSync - NLP
+2/25/19 17:30,1       ,39.25     ,Node Kata
+2/27/19 8:00 ,1       ,40.25     ,MedaSync - NLP
+2/26/19 18:00,1       ,41.25     ,Node Kata
+3/1/19 18:15 ,1       ,42.25     ,Node Kata
+3/13/19 7:45 ,1.25    ,43.5      ,MedaSync - NLP
+3/14/19 7:45 ,1.25    ,44.75     ,MedaSync - NLP
+3/18/19 7:45 ,1.25    ,46        ,MedaSync - NLP
+3/19/19 8:00 ,1       ,47        ,MedaSync - NLP
+3/20/19 8:00 ,1       ,48        ,MedaSync - NLP
+3/21/19 8:00 ,1       ,49        ,MedaSync - NLP
+3/25/19 7:30 ,1.5     ,50.5      ,RelyOn - Technical Scaffolding + Concierge
+3/26/19      ,1       ,51.5      ,MedaSync - NLP
+3/27/19 7:30 ,1.5     ,53        ,RelyOn - Technical Scaffolding + Concierge
+3/27/19 15:00,1       ,54        ,Node Kata
+3/29/19 7:30 ,1.5     ,55.5      ,RelyOn - Technical Scaffolding + Concierge
+4/1/19 7:30  ,1.5     ,57        ,RelyOn - Technical Scaffolding + Concierge
+4/2/19 7:30  ,1.5     ,58.5      ,RelyOn - Technical Scaffolding + Concierge
+4/3/19 7:30  ,1.5     ,60        ,RelyOn - Technical Scaffolding + Concierge
+4/4/19 8:00  ,1       ,61        ,School - Capacity Planner (ReactJS)
+4/8/19       ,2.5     ,63.5      ,School - Capacity Planner (ReactJS)
+4/9/19       ,1       ,64.5      ,School - Capacity Planner (ReactJS)
+4/10/19 8:00 ,1       ,65.5      ,School - Capacity Planner
+4/11/19 8:00 ,1       ,66.5      ,School - Capacity Planner
+4/11/19 13:00,2       ,68.5      ,Job Fair - Akron
+4/12/19 8:00 ,0.5     ,69        ,School - Capacity Planner
