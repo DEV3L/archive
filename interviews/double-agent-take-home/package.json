@@ -1,0 +1,22 @@
+{
+  "name": "double-agent-take-home",
+  "version": "0.0.1",
+  "description": "Take home exercise from Test Double",
+  "author": "DEV3L <jus.beall@gmail.com>",
+  "license": "BEER-WARE",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "test": "NODE_ENV=test && nyc --reporter=html --reporter=text mocha ./**/*.test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "coveralls": "^3.0.3",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^14.1.0",
+    "range": "^0.0.3"
+  }
+}
